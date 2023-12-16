@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <% if(nav===true){ %>
+        <div class="w-full px-10 py-3 flex  justify-between bg-zinc-800">
+            <h1 class="capitalize text-white  font-semibold">pinterest</h1>
+            <div class="flex items-center justify-center gap-5 px-4 text-white text-xs font-semibold">
+                <a href="/profile">Profile</a><a href="/feed">Feed</a><a class="px-3 py-2 bg-red-600 rounded-full text-white text-xs font-semibold" href="/logout">Logout</a>
+            </div>
+        </div>    
+        
+
+    <%    } %>

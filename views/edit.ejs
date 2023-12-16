@@ -1,0 +1,11 @@
+<% include ./partials/header.ejs %>
+
+<div class="w-full min-h-screen px-4  bg-zinc-800 text-white">
+    <form  action="/update" method="post" enctype="multipart/form-data">
+        <input   class="text-black rounded-md  block px-5" type="text" name="fullname" placeholder="fullname"  id="" value="<%= user.fullname%>">
+        <input   class="text-black rounded-md mt-3 block px-5" type="text" name="username" placeholder="username"  id="" value="<%= user.username%>">
+        <input  class="items-center mt-3 block px-5 bg-red-600 py-1 rounded-full" type="submit" value="Update">
+    </form>
+</div>
+
+<% include ./partials/footer.ejs %>
